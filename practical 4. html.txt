@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Subject</th>
+    <th>Classroom</th>
+    <th>Teachers</th>
+  </tr>
+  <tr>
+    <td>Maths</td>
+    <td>E201</td>
+    <td>Puja</td>
+  </tr>
+  <tr>
+    <td>Physics</td>
+    <td>M212</td>
+    <td>Aryan</td>
+</tr>
+<tr>
+<tf>Chemistr</tf>
+<tf>M112</td>
+<tf>Namrata</tf>
+  </tr>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
