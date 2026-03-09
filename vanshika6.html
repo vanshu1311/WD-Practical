@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scholarship / Seminar Registration</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg,#4facfe,#00f2fe);
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:60%;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#333;
+}
+
+fieldset{
+    border:2px solid #4facfe;
+    border-radius:8px;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+legend{
+    font-weight:bold;
+    color:#4facfe;
+    padding:5px 10px;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.options{
+    margin-top:8px;
+}
+
+.options input{
+    width:auto;
+    margin-right:5px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#4facfe;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2a8be6;
+}
+
+.progress{
+    height:10px;
+    background:#eee;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.progress-bar{
+    height:10px;
+    width:70%;
+    background:#4facfe;
+    border-radius:5px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 Scholarship / Seminar Registration</h1>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<form>
+
+<!-- Personal Details -->
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number">
+
+<label>Date of Birth</label>
+<input type="date">
+
+</fieldset>
+
+
+<!-- Education -->
+<fieldset>
+<legend>Educational Details</legend>
+
+<label>Qualification</label>
+<select>
+<option>Select</option>
+<option>12th Pass</option>
+<option>Undergraduate</option>
+<option>Postgraduate</option>
+</select>
+
+<label>Field of Study</label>
+<input type="text" placeholder="Example: Computer Science">
+
+<label>University / College</label>
+<input type="text">
+
+</fieldset>
+
+
+<!-- Seminar Selection -->
+<fieldset>
+<legend>Seminar Preferences</legend>
+
+<label>Select Seminar Mode</label>
+
+<div class="options">
+<input type="radio" name="mode"> Online
+<input type="radio" name="mode"> Offline
+<input type="radio" name="mode"> Hybrid
+</div>
+
+<label>Topics Interested In</label>
+
+<div class="options">
+<input type="checkbox"> Artificial Intelligence
+<input type="checkbox"> Cyber Security
+<input type="checkbox"> Web Development
+<input type="checkbox"> Data Science
+</div>
+
+<label>Preferred Session</label>
+<select>
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+</select>
+
+</fieldset>
+
+
+<!-- Submit -->
+<button type="submit">Submit Registration 🚀</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
